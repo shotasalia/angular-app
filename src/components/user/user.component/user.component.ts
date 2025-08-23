@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-user.component',
+  selector: 'app-user',
   imports: [],
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
