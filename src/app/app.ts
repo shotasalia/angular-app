@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { HeaderComponent } from '../components/header/header.component';
 import { UserComponent } from '../components/user/user.component/user.component';
+import { DUMMY_USERS } from '../components/user/user.component/data/users';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +10,7 @@ import { UserComponent } from '../components/user/user.component/user.component'
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('-projangularect');
-
+  public users = DUMMY_USERS;
 
   
 }
