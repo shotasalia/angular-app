@@ -1,7 +1,8 @@
 import { Component, signal } from '@angular/core';
 import { HeaderComponent } from '../components/header/header.component';
-import { UserComponent } from '../components/user/user.component/user.component';
-import { DUMMY_USERS } from '../components/user/user.component/data/users';
+import { DUMMY_USERS } from '../components/user/data/users';
+import { UserComponent } from '../components/user/user.component';
+
 
 @Component({
   selector: 'app-root',
