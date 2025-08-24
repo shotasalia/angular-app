@@ -13,5 +13,7 @@ import { UserComponent } from '../components/user/user.component';
 export class App {
   public users = DUMMY_USERS;
 
-  
+  onSelectUser (userId: string) {
+    console.log('Selected user: ' + userId);
+  }
 }
